@@ -1,0 +1,10 @@
+.list-conatiner {
+  position: absolute;
+  left: 2rem;
+  top: 4rem;
+  background-color: #fff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

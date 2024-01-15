@@ -1,0 +1,56 @@
+.chip {
+  display: inline-block;
+  background: #e0e0e0;
+  padding: 0 1.2rem;
+  border-radius: 3.2rem;
+  font-size: 1.3rem;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.chip,
+.chip-icon {
+  height: 3.2rem;
+  line-height: 3.2rem;
+}
+
+.chip-icon {
+  display: block;
+  float: left;
+  width: 3.2rem;
+  border-radius: 50%;
+  background-color: #43766c;
+  text-align: center;
+  color: white;
+  margin: 0 0.8rem 0 -1.2rem;
+}
+
+.chip-remove {
+  display: inline-block;
+  background: #aaa;
+  border: 0;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0 -0.4rem 0 0.4rem;
+  cursor: pointer;
+  font: inherit;
+  line-height: 2rem;
+}
+
+.chip-remove:after {
+  color: #e0e0e0;
+  content: "x";
+}
+.chip-remove:hover {
+  background: #999;
+}
+.chip-remove:active {
+  background: #777;
+}
+
+.hightlight-chip {
+  color: #fff;
+  background: #ff6868;
+}

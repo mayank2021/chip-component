@@ -1,0 +1,28 @@
+.list {
+  display: inline-block;
+  background: #e0e0e0;
+  padding: 0 1.2rem;
+  border-radius: 3.2rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.list:hover {
+  background: #999;
+}
+.list,
+.list-icon {
+  height: 3.2rem;
+  line-height: 3.2rem;
+}
+
+.list-icon {
+  display: block;
+  float: left;
+  width: 3.2rem;
+  border-radius: 50%;
+  background-color: #ff6868;
+  text-align: center;
+  color: white;
+  margin: 0 0.8rem 0 -1.2rem;
+}
